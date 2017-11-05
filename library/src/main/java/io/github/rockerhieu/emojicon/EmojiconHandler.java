@@ -1553,6 +1553,66 @@ public final class EmojiconHandler {
         sEmojisMap.put(0x2622, R.drawable.emoji_2622);
         sEmojisMap.put(0x2623, R.drawable.emoji_2623);
         sEmojisMap.put(0x1f5e8, R.drawable.emoji_1f5e8);
+
+        addCustomEmojiToMap();
+    }
+
+    // 从属性文件中读取自定义表情
+    private static void addCustomEmojiToMap() {
+        sEmojisMap.put(0x1f60a, R.drawable.e1);
+        sEmojisMap.put(0x1f601, R.drawable.e2);
+        sEmojisMap.put(0x1f61c, R.drawable.e3);
+        sEmojisMap.put(0x1f60d, R.drawable.e4);
+        sEmojisMap.put(0x1f603, R.drawable.e5);
+        sEmojisMap.put(0x1f613, R.drawable.e6);
+        sEmojisMap.put(0x1f60f, R.drawable.e7);
+        sEmojisMap.put(0x1f623, R.drawable.e8);
+        sEmojisMap.put(0x1f62d, R.drawable.e9);
+        sEmojisMap.put(0x1f602, R.drawable.e10);
+
+        sEmojisMap.put(0x2764, R.drawable.e11);
+        sEmojisMap.put(0x1f494, R.drawable.e12);
+        sEmojisMap.put(0x1f437, R.drawable.e13);
+        sEmojisMap.put(0x1f339, R.drawable.e14);
+        sEmojisMap.put(0x2600, R.drawable.e15);
+        sEmojisMap.put(0x1f44a, R.drawable.e16);
+        sEmojisMap.put(0x1f37a, R.drawable.e17);
+        sEmojisMap.put(0x1f4a9, R.drawable.e18);
+        sEmojisMap.put(0x1f444, R.drawable.e19);
+        sEmojisMap.put(0x1f382, R.drawable.e20);
+
+        sEmojisMap.put(0x1f31b, R.drawable.e21);
+        sEmojisMap.put(0x2615, R.drawable.e22);
+        sEmojisMap.put(0x1f349, R.drawable.e23);
+        sEmojisMap.put(0x1f44c, R.drawable.e24);
+        sEmojisMap.put(0x1f62e, R.drawable.e25);
+        sEmojisMap.put(0x1f615, R.drawable.e26);
+        sEmojisMap.put(0x1f61f, R.drawable.e27);
+        sEmojisMap.put(0x1f634, R.drawable.e28);
+        sEmojisMap.put(0x1f627, R.drawable.e29);
+        sEmojisMap.put(0x1f44d, R.drawable.e30);
+
+        sEmojisMap.put(0x1f44e, R.drawable.e31);
+        sEmojisMap.put(0x1f480, R.drawable.e32);
+        sEmojisMap.put(0x1f629, R.drawable.e33);
+        sEmojisMap.put(0x1f630, R.drawable.e34);
+        sEmojisMap.put(0x1f624, R.drawable.e35);
+        sEmojisMap.put(0x1f631, R.drawable.e36);
+        sEmojisMap.put(0x1f648, R.drawable.e37);
+        sEmojisMap.put(0x1f64a, R.drawable.e38);
+        sEmojisMap.put(0x1f619, R.drawable.e39);
+        sEmojisMap.put(0x1f631, R.drawable.e40);
+
+        sEmojisMap.put(0x1f44f, R.drawable.e41);
+        sEmojisMap.put(0x1f44b, R.drawable.e42);
+        sEmojisMap.put(0x1f626, R.drawable.e43);
+        sEmojisMap.put(0x1f60e, R.drawable.e44);
+        sEmojisMap.put(0x1f61e, R.drawable.e45);
+        sEmojisMap.put(0x1f625, R.drawable.e46);
+        sEmojisMap.put(0x1f614, R.drawable.e47);
+        sEmojisMap.put(0x1f64b, R.drawable.e48);
+        sEmojisMap.put(0x1f270c, R.drawable.e49);
+        sEmojisMap.put(0x1f3c3, R.drawable.e50);
     }
 
     private static boolean isSoftBankEmoji(char c) {

@@ -29,6 +29,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".EmojiconsActivity"></activity>
+        <activity android:name=".CustomEmojiActivity"></activity>
+
     </application>
 
 </manifest>

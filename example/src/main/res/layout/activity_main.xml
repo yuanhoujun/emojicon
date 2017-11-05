@@ -27,6 +27,12 @@
         android:layout_height="wrap_content"
         android:text="EmojiconsView"
         android:onClick="openEmojiconsActivity"/>
+
+    <Button
+        android:id="@+id/btn_custom_emoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义Emoji表情" />
     <CheckBox
         android:id="@+id/use_system_default"
         android:layout_width="wrap_content"

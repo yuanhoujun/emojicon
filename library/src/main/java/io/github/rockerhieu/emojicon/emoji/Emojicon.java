@@ -43,6 +43,7 @@ public class Emojicon implements Parcelable {
     public static final int TYPE_OBJECTS = 3;
     public static final int TYPE_PLACES = 4;
     public static final int TYPE_SYMBOLS = 5;
+    public static final int TYPE_CUSTOM = 6;
 
     public static Emojicon[] getEmojicons(@Type int type) {
         switch (type) {
@@ -56,6 +57,8 @@ public class Emojicon implements Parcelable {
                 return Places.DATA;
             case TYPE_SYMBOLS:
                 return Symbols.DATA;
+            case TYPE_CUSTOM:
+                return Custom.DATA;
         }
         throw new IllegalArgumentException("Invalid emojicon type: " + type);
     }
