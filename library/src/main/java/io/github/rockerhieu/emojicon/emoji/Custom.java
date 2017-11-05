@@ -18,11 +18,11 @@ public class Custom {
             Emojicon.fromCodePoint(0x1f62d),
             Emojicon.fromCodePoint(0x1f602),
 
-            Emojicon.fromCodePoint(0x2764),
+            Emojicon.fromChar((char)0x2764),
             Emojicon.fromCodePoint(0x1f494),
             Emojicon.fromCodePoint(0x1f437),
             Emojicon.fromCodePoint(0x1f339),
-            Emojicon.fromCodePoint(0x2600),
+            Emojicon.fromChar((char)0x2600),
             Emojicon.fromCodePoint(0x1f44a),
             Emojicon.fromCodePoint(0x1f37a),
             Emojicon.fromCodePoint(0x1f4a9),
@@ -30,7 +30,7 @@ public class Custom {
             Emojicon.fromCodePoint(0x1f382),
 
             Emojicon.fromCodePoint(0x1f31b),
-            Emojicon.fromCodePoint(0x2615),
+            Emojicon.fromChar((char)0x2615),
             Emojicon.fromCodePoint(0x1f349),
             Emojicon.fromCodePoint(0x1f44c),
             Emojicon.fromCodePoint(0x1f62e),
@@ -59,7 +59,7 @@ public class Custom {
             Emojicon.fromCodePoint(0x1f625),
             Emojicon.fromCodePoint(0x1f614),
             Emojicon.fromCodePoint(0x1f64b),
-            Emojicon.fromCodePoint(0x270c),
+            Emojicon.fromChar((char)0x270c),
             Emojicon.fromCodePoint(0x1f3c3),
 
     };
