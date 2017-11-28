@@ -128,7 +128,18 @@ public class EmojiconGridView extends GridView implements AdapterView.OnItemClic
             super(in);
             //noinspection WrongConstant
             this.type = in.readInt();
-            this.data = (Emojicon[]) in.readParcelableArray(Emojicon.class.getClassLoader());
+
+            // 部分机型存在类型转换异常问题：android.os.Parcelable[] cannot be cast to io.github.rockerhieu.emojicon.emoji.Emojicon[]
+            Parcelable[] emojiIcons = in.readParcelableArray(Emojicon.class.getClassLoader());
+            Emojicon[] icons = new Emojicon[emojiIcons.length];
+
+            if(null != emojiIcons) {
+                for(int i = 0; i < emojiIcons.length; i ++) {
+                    icons[i] = (Emojicon) emojiIcons[i];
+                }
+            }
+
+            this.data = icons;
             this.useSystemDefaults = in.readInt() != 0;
             this.scrollX = in.readInt();
             this.scrollY = in.readInt();
